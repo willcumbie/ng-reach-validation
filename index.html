@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="angular/directives.js"></script>
+
+  <link rel="stylesheet" href="css/validation.css"></script>
+</head>
+
+<body>
+  <p>Name: <input type="text" name="Name" ng-model="name" required validated></input></p>
+  <p>Count: <input type="number" name="Count" ng-model="count" min-value="3" validated></input></p>
+</body>
+</html>
